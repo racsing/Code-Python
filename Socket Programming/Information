@@ -1,0 +1,24 @@
+https://docs.python.org/3/library/socket.html
+
+Socket programming is a way of connecting two nodes on a network to communicate with each other.
+Python’s socket module provides an interface to the Berkeley sockets API.
+
+A simple server-client program
+
+Server call:
+------------
+bind() - binds it to a specific IP and port so that it can listen to incoming requests on that IP and port.
+listen() - puts the server into listening mode. This allows the server to listen to incoming connections.
+accept() - initiates a connection with the client
+
+
+Client call:
+------------
+connect() - establish a connection to the server and initiate the three-way handshake.
+
+Common methods:
+---------------
+socket() - create a socket object
+close() - closes the connection
+recv() - receive data / messages
+send() - send data / messages
