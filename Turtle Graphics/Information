@@ -1,0 +1,18 @@
+Turtle graphics
+================
+Docs::
+https://docs.python.org/3/library/turtle.html
+
+packages::
+pip install PythonTurtle
+brew install python-tk
+
+Turtle Motion::
+turtle.forward(distance) / turtle.fd(distance)
+turtle.back(distance) / turtle.bk(distance) / turtle.backward(distance)
+turtle.right(angle) / turtle.rt(angle)
+turtle.left(angle) / turtle.lt(angle)
+
+Pen control::
+turtle.pendown() / turtle.pd() / turtle.down() - Pull the pen down – drawing when moving.
+turtle.penup() / turtle.pu() / turtle.up() - Pull the pen up – no drawing when moving.
