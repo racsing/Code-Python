@@ -1,0 +1,5 @@
+1) Open file name bcd.txt in read mode and assign it to fn.
+3) Read the content line by line of the file fn and assign it to cont.
+5) Check if i is not divisible by 2 then write the content in fn1 else pass.
+7) Now open nfile.txt in read mode and assign it to fn1.
+9) Print the content of the file and then close the file fn and fn1 .
